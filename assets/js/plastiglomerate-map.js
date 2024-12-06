@@ -25,10 +25,10 @@ fetch(csvUrl)
         // Create the popup content based on available data
         var popupContent = 'Latitude: ' + latitude + '<br>Longitude: ' + longitude;
         if (name.trim() !== '') {
-          popupContent += '<br>Transmission Radius: ' + name;
+          popupContent += '<br>Description: ' + name;
         }
         if (contact.trim() !== '') {
-          popupContent += '<br>Contact: ' + contact;
+          popupContent += '<br>Link to Photo: ' + contact;
         }
         
         // Bind popup with custom content to the marker
